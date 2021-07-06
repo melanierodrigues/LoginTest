@@ -30,8 +30,9 @@ main {
     justify-content: center;
     align-items: center;
     cursor:  url(Cursor.cur) 4 12, pointer;
+    background-color: rgba(243, 234, 234, 0.3);
     box-shadow: 5px 5px 20px rgba(24, 98, 128, 0.3);
-    backdrop-filter:blur(10px) ;
+    backdrop-filter:blur(5px) ;
 }
 
 .login {
