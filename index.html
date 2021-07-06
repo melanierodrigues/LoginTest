@@ -9,7 +9,7 @@
     <script defer src="./script.js"></script>
 </head>
 <body>
-    <main class="login">
+    <main class="login" >
 
         <div class="login__container">
             <div class="fundo">
@@ -22,11 +22,13 @@
                 <input class="login__input" type="password" placeholder="senha">
                 <span class="login__input-border"></span>
 
-                <div>
-                    <input type="checkbox" id="scales" name="scales"
-                           checked>
-                    <label for="scales">I want to recive news</label>
-                  </div>
+                    
+                <section class="power-button">
+                    <input type="checkbox" id="powerbutton">
+                    <label for="powerbutton" class="toggle"></label>
+                </section>
+
+                <p id="received">Do you want received fake news?</p>
 
                 <button class="login__submit" type="submit" value="Login">Login</button>
                 <a class="login__reset" href="#">Forgot the password?</a>
